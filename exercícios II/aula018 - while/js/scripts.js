@@ -20,7 +20,9 @@ while (y <= 3) {
 var palavra = "Leonardo";
 var i = 0;
 
-while (i <= 7) {
+while (i <= 7
+    
+) {
     console.log(palavra[i])
     i++
 }
