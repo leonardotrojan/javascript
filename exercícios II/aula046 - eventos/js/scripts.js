@@ -1,23 +1,12 @@
-var x = 0;
+window.onload = function() {
+    console.log("carregou o DOM");
 
-var myTime = setTimeout(function() {
-    console.log("O x é 0");
-}, 1500);
-
-x = 5;
-
-if(x > 0) {
-    clearTimeout(myTime);
-    console.log("O x passou de 0");
+    var title2 = document.querySelector("#title");
+    console.log(title2)
 }
 
-// -----------------------------------------
+console.log("Carregou o JS");
 
-var myInterval = setInterval(function() {
-    console.log("imprimindo interval");
-}, 500);
+var title = document.querySelector("#title");
 
-setTimeout(function() {
-    console.log("Não precisamos mais repetir!");
-    clearInterval(myInterval);
-}, 1500);
+console.log(title);
