@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #E65763, #34073D);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#nova-task h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+#task-title {
+    height: 50px;
+    width: 400px;
+}
+
+#task-title::placeholder {
+    font-size: 1.5em;
+    color: #34073D;
+    padding-left: 5px;
+}
